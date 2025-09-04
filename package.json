@@ -1,0 +1,14 @@
+{
+  "name": "dacode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "sass --watch --no-source-map ./SASS/main.scss ./SASS/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.92.0"
+  }
+}
