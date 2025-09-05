@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import ButtonComponent from '@/components/Core/ButtonComponent'
+import { IoIosRocket } from "react-icons/io";
 
 const HeroSection = () => {
     return (
@@ -13,8 +15,8 @@ const HeroSection = () => {
                         <p className='hero-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ut turpis adipiscing tempus, magna elit nunc iaculis sit. Libero velit quis leo non. At donec egestas cras in libero pellentesque. Donec amet phasellus.</p>
 
                         <div className="btn-wrapper">
-                            <button className='btn primary-btn'>Get Started</button>
-                            <button className='btn light-btn'>Contact us</button>
+                            <ButtonComponent label="Get Started" role="button" variant="primary" />
+                            <ButtonComponent label="Contact Us" role="button" variant="light" />
                         </div>
                     </div>
 

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
+import ButtonComponent from '@/components/Core/ButtonComponent';
 
 const Header = () => {
 
@@ -41,7 +42,7 @@ const Header = () => {
                             </li>
 
                             <li className="navbar-links cta-button">
-                                <a href="#" className="btn secondary-btn">Request a quote</a>
+                                <ButtonComponent label="Request a Quote" role="link" variant="secondary" />
                             </li>
                         </ul>
                     </nav>
