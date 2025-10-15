@@ -1,6 +1,7 @@
+'use client'
 import React from 'react'
-import ServiceCard from '../Card/ServiceCard';
-
+import './service-section.scss'
+import InfoCard from '../../Cards/InfoCard/InfoCard';
 
 const ServiceSection = () => {
     const servicesData = [
@@ -61,7 +62,7 @@ const ServiceSection = () => {
 
                     <div className="service-cards-wrapper">
                         {servicesData.map((service) => (
-                            <ServiceCard key={service.id} data={service} />
+                            <InfoCard key={service.id} data={service} />
                         ))}
                     </div>
                 </div>
