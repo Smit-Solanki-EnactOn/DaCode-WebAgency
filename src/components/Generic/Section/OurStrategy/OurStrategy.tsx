@@ -34,7 +34,7 @@ const OurStrategy = () => {
                 </div>
 
                 {/* Background Image */}
-                <Image src="/images/our-strategy.png" alt="Background Design" width={700} height={700} className='our-strategy-image' />
+                <Image src="/images/our-strategy.png" alt="Background Design" width={700} height={700} className='our-strategy-image' loading='lazy'  />
 
             </div>
         </section>

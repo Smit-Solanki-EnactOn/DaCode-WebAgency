@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="footer-top-content">
                         <div className="footer-about-company">
                             <a className="footer-logo" href="#">
-                                <Image src="/images/dacode-logo.png" alt="DaCode Logo" width={200} height={24} />
+                                <Image src="/images/dacode-logo.png" alt="DaCode Logo" width={200} height={24} loading='lazy'  />
                             </a>
 
                             <p className="footer-description">

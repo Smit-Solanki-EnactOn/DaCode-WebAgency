@@ -39,8 +39,8 @@ const OurWorkSection = () => {
                         <Nav variant="tabs" className="tab-buttons">
                             {tabOptions.map((tab) => (
                                 <Nav.Item key={tab.id}>
-                                    <Nav.Link 
-                                        className={`tab-btn ${activeTab === tab.value ? 'active' : ''}`} 
+                                    <Nav.Link
+                                        className={`tab-btn ${activeTab === tab.value ? 'active' : ''}`}
                                         onClick={() => handleTabChange(tab.value)}
                                     >
                                         {tab.label}
@@ -87,11 +87,11 @@ const OurWorkSection = () => {
                                                 alt={slide.alt}
                                                 width={472}
                                                 height={297}
-                                                priority
                                                 style={{
                                                     width: '100%',
                                                     height: 'auto',
                                                 }}
+                                                loading='lazy'
                                             />
                                             <p className="slide-description">{slide.description}</p>
                                         </div>

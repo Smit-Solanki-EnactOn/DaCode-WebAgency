@@ -45,6 +45,7 @@ const ScheduleSession = () => {
                                 className="schedule-image"
                                 width={600}
                                 height={500}
+                                loading='lazy'
                             />
                         </div>
                     </div>
@@ -57,6 +58,7 @@ const ScheduleSession = () => {
                         className="decoration-image"
                         width={600}
                         height={600}
+                        loading='lazy'
                     />
                 </div>
             </div>

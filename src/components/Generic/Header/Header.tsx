@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="header-wrapper">
                     <Navbar expand="lg" className='navbar' sticky="top">
                         <Navbar.Brand href="/">
-                            <Image src={"/images/dacode-logo.png"} alt="DaCode Logo" width={200} height={24} />
+                            <Image src={"/images/dacode-logo.png"} alt="DaCode Logo" width={200} height={24} loading='lazy'  />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbar-menu" onClick={toggleMobileMenu}>
                             <GiHamburgerMenu className='menu-icon' />

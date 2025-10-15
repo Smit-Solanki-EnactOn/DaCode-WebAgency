@@ -22,13 +22,13 @@ const HeroSection = () => {
 
                     {/* Right Side */}
                     <div className="hero-image-wrapper">
-                        <Image src="/images/hero-image.png" alt="Hero Image" width={700} height={700} className='hero-image' />
+                        <Image src="/images/hero-image.png" alt="Hero Image" width={700} height={700} className='hero-image' loading='lazy'  />
                     </div>
                 </div>
 
                 {/* Background Design */}
                 <div className='design-element-2'>
-                    <Image src="/images/design-element-2.png" alt="Background Design" width={600} height={600} />
+                    <Image src="/images/design-element-2.png" alt="Background Design" width={600} height={600} loading='lazy'  />
                 </div>
 
             </div >

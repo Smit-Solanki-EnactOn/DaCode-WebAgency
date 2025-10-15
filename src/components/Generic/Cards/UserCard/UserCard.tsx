@@ -24,10 +24,10 @@ const UserCard: React.FC<UserCardProps> = ({
     <div className="user-card">
       <div className="user-card_image-wrapper">
 
-        <Image src={image} alt="User" className="user-card_image" width={110} height={110} />
+        <Image src={image} alt="User" className="user-card_image" width={110} height={110} loading='lazy'  />
 
         {/* {image ? (
-          <Image src={image} alt="User" className="user-card_image" width={110} height={110} />
+          <Image src={image} alt="User" className="user-card_image" width={110} height={110} loading='lazy'  />
         ) : (
           <div className="user-card_image-placeholder">
             {name?.charAt(0).toUpperCase()}

@@ -130,6 +130,7 @@ const TestimonialSection = () => {
                                                     className="avatar-image"
                                                     width={80}
                                                     height={80}
+                                                    loading='lazy'
                                                 />
                                             </div>
                                             <div className="author-info">
@@ -151,6 +152,7 @@ const TestimonialSection = () => {
                             className="decoration-image"
                             width={600}
                             height={600}
+                            loading='lazy'
                         />
                     </div>
                 </div>

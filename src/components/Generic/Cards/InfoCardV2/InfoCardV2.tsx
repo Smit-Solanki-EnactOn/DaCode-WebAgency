@@ -27,12 +27,13 @@ const InfoCardV2: React.FC<InfoCardV2Props> = ({ data }) => {
     <div className="info-card-v2">
       {/* Image Section */}
       <div className="info-card-v2_image-wrapper">
-        <Image 
+        <Image
           src={data.image}
           alt={data.title}
           width={400}
           height={300}
           className="info-card-v2_image"
+          loading='lazy'
         />
         {data.date && (
           <div className="info-card-v2_date-badge">
